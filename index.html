@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sathwik | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+  />
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script defer src="./script.js"></script>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Sathwik Rao K</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certification">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Sathwik Rao K</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./assets/04-modified.png" alt="Sathwik profile picture" width="200px" height="200px" id="imgsat">
+        </div>
+
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I'm</p>
+            <h1 class="title">Sathwik Rao K</h1>
+            <p class="section_text_p2">Frontend Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/MITE_CSE_SATHWIK RAO K(wo I).pdf')">Download CV</button>
+           
+                <button 
+                class="btn btn-color-1"
+                 onclick="location.href='./#contact'"
+                 >
+                Contact Info
+            </button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My Linkedin profile" class="icon" onclick="location.href='https://www.linkedin.com/in/sathwik-rao-619237226'"/>
+                <img src="./assets/github.png" 
+                lt="My Github profile" class="icon" onclick="location.href='https://github.com/raosathwik'"/>
+                <img src="./assets/twitter.png" 
+                lt="My Github profile" class="icon" onclick="location.href='http://twitter.com/Sathwik90057892'"/>
+                <img src="./assets/insta.jpeg" 
+                lt="My Github profile" class="icon" onclick="location.href='https://www.instagram.com/i_am_7wik__'"/>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="section_text_p1">Get to Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section_pic-container">
+                <img src="./assets/about1.jpg" alt="Profile Picture" class="about-pic"/>
+            </div>
+
+            <div class="about-details-container">
+                <div class="about-containers">
+                  <!-- <div class="details-container">
+                        <img src="./assets/experience.png" alt="Experience icon" class="icon"/>
+                        <h3>Experience</h3>
+                        <p>2+ years <br/>Frontend Development</p>
+                    </div>--> 
+                    <div class="text-container">
+                      <p>Hello, I'm Sathwik Rao K, a Front-End Web Developer with a design-driven passion. I specialize in sculpting seamless web designs and responsive interfaces. The elegance of thoughtfully crafted websites ignites my ambition to excel in HTML, CSS, JavaScript, and React. My aim is to craft online experiences that not only look exceptional but also engage and inspire users. As a curious newcomer evolving into a proficient web developer, I'm dedicated to embracing the ever-evolving art of the digital world.
+                      </p>
+                  </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Education icon" class="icon"/>
+                        <h3>Education</h3>
+                        <p>B.E - Computer Science & Engineering, <br>Mangalore Institute of Technology & Engineering<br/>Senior Secondary (12th) – Alvas PU College, Moodabidri<br/>Secondary School (SSLC) – Jain High School, Moodabidri</p>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+
+        <img src="./assets/arrow.png" 
+        alt="Arrow icon" 
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+        />
+    </section>
+
+    <section id="experience">
+        <p class="section_text_p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Languages & Interfaces</h2>
+                    <div class="article-container">
+                        <article>
+                            <img
+                            src="./assets/checkmark.png"
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>C++</h3>
+                                <P>Experienced</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img
+                            src="./assets/checkmark.png"
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Java</h3>
+                                <P>Experienced</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img
+                            src="./assets/checkmark.png"
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Javascript</h3>
+                                <P>Basic</P>
+                            </div>
+                        </article>
+                       
+                        <article>
+                            <img
+                            src="./assets/checkmark.png"
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>C</h3>
+                                <P>Experienced</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img
+                            src="./assets/checkmark.png"
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Html</h3>
+                                <P>Experienced</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img
+                            src="./assets/checkmark.png"
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>CSS</h3>
+                                <P>Experienced</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img
+                            src="./assets/checkmark.png"
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>React JS(Trainee)</h3>
+                                <P>Basic</P>
+                            </div>
+                        </article>
+                       
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Database & Tools
+                    </h2>
+                    <div class="article-container">
+                        <article>
+                            <img
+                            src="./assets/checkmark.png"
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>SQL</h3>
+                                <P>Experienced</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img
+                            src="./assets/checkmark.png"
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Firebase</h3>
+                                <P>Basic</P>
+                            </div>
+                        </article>
+                       
+                        <article>
+                            <img
+                            src="./assets/checkmark.png"
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>MYSQL</h3>
+                                <P>Experienced</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img
+                            src="./assets/checkmark.png"
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Git GitHub</h3>
+                                <P>Experienced</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img
+                            src="./assets/checkmark.png"
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Visual Studio Code</h3>
+                                <P>Experienced</P>
+                            </div>
+                        </article>
+                        
+                        <article>
+                            <img
+                            src="./assets/checkmark.png"
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Canva</h3>
+                                <P>Experienced</P>
+                            </div>
+                        </article>
+                  <!-- <article>
+                            <img
+                            src="./assets/checkmark.png"
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Git</h3>
+                                <P>Experienced</P>
+                            </div>
+                        </article>-->     
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" 
+        alt="Arrow icon" 
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+        />
+    </section>
+
+    <section id="projects">
+        <p class="section_text_p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+             <div class="article-container">
+                <img
+                src="./assets/portfolio.png"
+                alt="project 1"
+                class="project-img"/>
+               </div>
+            <h2 class="experience-sub-title project-title">Personal Portfolio</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                    Github
+                </button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                    Live Demo
+                </button>
+
+                </div>
+            </div>
+            <div class="details-container color-container">
+             <div class="article-container">
+                <img
+                src="./assets/linked.jpeg"
+                alt="project 2"
+                class="project-img"/>
+               </div>
+            <h2 class="experience-sub-title project-title">Linkedin Clone</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/raosathwik/Linkedin-clone.git'">
+                    Github
+                </button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://raolinkedin.netlify.app/'">
+                    Live Demo
+                </button>
+
+                </div>
+            </div>
+            <div class="details-container color-container">
+             <div class="article-container">
+                <img
+                src="./assets/movie.png"
+                alt="project 2"
+                class="project-img"/>
+               </div>
+            <h2 class="experience-sub-title project-title">Cinemater</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/raosathwik/Cinemater-Movie-Clone.git'">
+                    Github
+                </button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://raocinema.netlify.app/'">
+                    Live Demo
+                </button>
+
+                </div>
+            </div>
+          <!--  <div class="details-container color-container">
+             <div class="article-container">
+                <img
+                src="./assets/char.png"
+                alt="project 2"
+                class="project-img"/>
+               </div>
+            <h2 class="experience-sub-title project-title">Character Counter</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/raosathwik/RealTime-Char-Count.git'">
+                    Github
+                </button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://raocharcount.netlify.app/'">
+                    Live Demo
+                </button>
+
+                </div>
+            </div>
+            <div class="details-container color-container">
+             <div class="article-container">
+                <img
+                src="./assets/linked.jpeg"
+                alt="project 2"
+                class="project-img"/>
+               </div>
+            <h2 class="experience-sub-title project-title">Linkedin Clone</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/raosathwik/Linkedin-clone.git'">
+                    Github
+                </button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://raolinkedin.netlify.app/'">
+                    Live Demo
+                </button>
+
+                </div>
+            </div>
+            <div class="details-container color-container">
+             <div class="article-container">
+                <img
+                src="./assets/project-3.png"
+                alt="project 3"
+                class="project-img"/>
+               </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                    Github
+                </button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                    Live Demo
+                </button>
+
+                </div>
+            </div>
+            </div>
+        </div>-->
+        <img src="./assets/arrow.png" 
+        alt="Arrow icon" 
+        class="icon arrow"
+        onclick="location.href='./#certification'"
+        />
+    </section>
+    <section id="certification">
+  <h1 class="title">Certification</h1>
+        <div class="slider-container swiper">
+           
+          <div class="slider-content">
+            <div class="card-wrapper swiper-wrapper">
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <span class="overlay"></span>
+                  <div class="card-image">
+                    <img src="assets/internshala1.jpg" class="card-img" alt="" />
+                  </div>
+                </div>
+                <div class="card-content">
+                  <h2 class="name">Internshala Trainings</h2>
+                  <p class="description">
+                    Web Development 
+                  </p>
+                  
+                  
+                  <button class="button" onclick="window.open('./c-pdf/intern.pdf')">View More</button>
+                
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <span class="overlay"></span>
+                  <div class="card-image">
+                    <img src="/assets/coursera.png" class="card-img" alt="" />
+                  </div>
+                </div>
+                <div class="card-content">
+                  <h2 class="name">Coursera</h2>
+                  <p class="description">
+                    Crash Course on Python
+                  </p>
+                  <button class="button" onclick="window.open('./c-pdf/Coursera WRLW3734RUCU.pdf')">View More</button>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <span class="overlay"></span>
+                  <div class="card-image">
+                    <img src="/assets/greatlearning.jpg" class="card-img" alt="" />
+                  </div>
+                </div>
+                <div class="card-content">
+                  <h2 class="name"> Great Learning</h2>
+                  <p class="description">
+                    Front End Development - HTML
+                  
+                  </p>
+                  <button class="button" onclick="window.open('./c-pdf/greatlearning.pdf')">View More</button>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <span class="overlay"></span>
+                  <div class="card-image">
+                    <img src="/assets/forage2.jpg" class="card-img" alt="" />
+                  </div>
+                </div>
+                <div class="card-content">
+                  <h2 class="name">Forage</h2>
+                  <p class="description">
+                    Advanced Software Engineering Virtual Experience Program
+                  </p>
+                  <button class="button" onclick="window.open('./c-pdf/walmart.pdf')">View More</button>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <span class="overlay"></span>
+                  <div class="card-image">
+                    <img src="/assets/SkillUp_Logo.jpg" class="card-img" alt="" />
+                  </div>
+                </div>
+                <div class="card-content">
+                  <h2 class="name">SkillUp</h2>
+                  <p class="description">
+                    Introduction to If Else Statements and Loops in Python
+                  </p>
+                  <button class="button" onclick="window.open('./c-pdf/2903166_Introduction_to_If_Else_Statements_and_Loops_in_Python_4026794-1.pdf')">View More</button>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <span class="overlay"></span>
+                  <div class="card-image">
+                    <img src="/assets/uipath.jpeg" class="card-img" alt="" />
+                  </div>
+                </div>
+                <div class="card-content">
+                  <h2 class="name">UiPath</h2>
+                  <p class="description">
+                    Introduction to RPA and
+                    Automation
+                  </p>
+                  <button class="button" onclick="window.open('./c-pdf/LearningPath_Certificate_11182021131042339 (1).pdf')">View More</button>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <span class="overlay"></span>
+                  <div class="card-image">
+                    <img src="/assets/uipath2.png" class="card-img" alt="" />
+                  </div>
+                </div>
+                <div class="card-content">
+                  <h2 class="name">UiPath</h2>
+                  <p class="description">
+                    Get Started with RPA Development
+                  </p>
+                  <button class="button" onclick="window.open('./c-pdf/LearningPath_Certificate_11212021055803821 (1).pdf')">View More</button>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <span class="overlay"></span>
+                  <div class="card-image">
+                    <img src="/assets/mathworks.jpg" class="card-img" alt="" />
+                  </div>
+                </div>
+                <div class="card-content">
+                  <h2 class="name">MathWorks</h2>
+                  <p class="description">
+                    MATLAB Onramp
+                  </p>
+                  <button class="button" onclick="window.open('./c-pdf/certificate.pdf')">View More</button>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <span class="overlay"></span>
+                  <div class="card-image">
+                    <img src="/assets/forage2.jpg" class="card-img" alt="" />
+                  </div>
+                </div>
+                <div class="card-content">
+                  <h2 class="name">Forage</h2>
+                  <p class="description">
+                   ESG Virtual Experience Program
+                  </p>
+                  <button class="button" onclick="window.open('./assets/tcs.jpg')">View More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next swiper-navBtn"></div>
+          <div class="swiper-button-prev swiper-navBtn"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <img src="./assets/arrow.png" 
+        alt="Arrow icon" 
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+        />
+    </section>
+    
+
+<section id="contact">
+    <p class="section_text_p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img
+        src="./assets/email.png"
+        class="icon contact-icon email-icon"
+        />
+        <p><a href="mailto:raosathwik3@gmail.com">raosathwik3@gmail.com</a></p>
+      </div>
+    
+  
+      <div class="contact-info-container">
+        <img
+        src="./assets/linkedin.png"
+        class="icon contact-icon"
+        />
+        <p><a href="https://www.linkedin.com/in/sathwik-rao-619237226">LinkedIn</a></p>
+      </div>
+    </div>
+
+
+</section>
+
+<footer>
+  <nav>
+    <div class="nav-links-container">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certification">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    </div>
+  </nav>
+  <p>Copyright &#169; 2023 Sathwik Rao. All Rights Reserved.</p>
+</footer>
+</body>
+</html>
